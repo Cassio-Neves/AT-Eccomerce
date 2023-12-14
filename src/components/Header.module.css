@@ -1,0 +1,65 @@
+.menuNav {
+  display: flex;
+  flex-direction: column;
+  background-color: #8C8C8C;
+  border-radius: 25px;
+}
+
+span img {
+  height: 20px;
+  margin-right: 10px;
+}
+
+
+.itemNav {
+  color: #F2F2F2;
+  text-align: center;
+  margin: 10px;
+  order: 1;
+  font-weight: bold;
+  padding: 5px;
+
+}
+
+.itemNav:hover {
+  color: black;
+  background-color: #F2F2F2;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 50px;
+} 
+.itemNavHome {
+  font-weight: 800;
+  color: #F2F2F2;
+  text-align: center;
+  margin: 10px;
+  order: 1;
+}
+
+.itemNavToggle {
+  order: 0;
+}
+
+
+@media (min-width: 740px) {
+  .menuNav {
+    flex-direction: row;
+    justify-content: start;
+    gap: 50px;
+
+  }
+
+
+  .itemNavHome {
+    flex-grow: 0;
+    text-align: left;
+    order: 0;
+  }
+  .itemNavToggle {
+    display: none;
+  }
+
+
+
+}
+

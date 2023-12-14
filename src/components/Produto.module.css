@@ -1,0 +1,24 @@
+h3 {
+  text-align: center;
+  border-bottom: 1px solid lightgrey;
+}
+
+.cabecalhoProduto {
+    margin-top: 50px;
+    padding: 2px;
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.descricaoProduto {
+    text-align: center;
+    font-weight: bold;
+    text-indent: 2px;
+    font-size: 1.2em;
+}
+
+.painelCompra {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

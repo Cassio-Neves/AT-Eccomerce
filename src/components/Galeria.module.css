@@ -1,0 +1,30 @@
+.imgProduto {
+  display: flex;
+  width: 45vw;
+  height: auto;
+  margin: auto;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.imgControl {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 10px 5px;
+  border-bottom: 1px solid lightgray;
+  margin-top: 20px;
+}
+
+.imgMinGaleria {
+  flex-shrink: 1;
+  width: 40px;
+}
+
+@media (max-width: 360px) {
+  .imgMinGaleria {
+    display: none;
+    visibility: hidden;
+  }
+}
